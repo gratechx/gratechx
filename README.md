@@ -1,24 +1,24 @@
 <div align="center">
 
-<!-- Header Animation -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1ABC9C,100:6C5CE7&height=200&section=header&text=GraTech&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=السيادة%20الرقمية%20|%20Digital%20Sovereignty&descAlignY=55&descSize=20" width="100%"/>
+<!-- Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a3a4a,100:1ABC9C&height=200&section=header&text=GraTech&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Where%20Magic%20Meets%20Technology&descAlignY=55&descSize=18" width="100%"/>
 
 <br>
 
-<!-- Typing Effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Tajawal&weight=600&size=28&duration=3000&pause=1000&color=1ABC9C&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86+%D9%8A%D8%A3%D9%85%D8%B1...;%D9%88%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D9%8A%D8%AE%D8%AF%D9%85" alt="Typing SVG" /></a>
-
-<br><br>
+<!-- Typing -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=500&size=24&duration=3000&pause=1000&color=1ABC9C&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=80&lines=The+Human+Commands...;The+AI+Serves+%E2%9C%A8" alt="Typing SVG" /></a>
 
 </div>
+
+<br>
 
 ---
 
 <div align="center">
 
-## 🌌 The GraTech Universe
+## ✨ The Entities
 
-*ثلاثة كيانات... روح واحدة*
+*Three spirits... One purpose*
 
 </div>
 
@@ -28,77 +28,86 @@
 <tr>
 <td align="center" width="33%">
 
-### 🏠 Haven
-  
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━-6C5CE7?style=flat-square" width="100%"/>
+<br>
+
+### 👻 Haven
+
+<br>
 
 ```
-    ╭─────────────────╮
-    │  ◉  Safe Space  │
-    │    ╭─────╮      │
-    │    │ 💜 │      │
-    │    ╰─────╯      │
-    │   Your Haven    │
-    ╰─────────────────╯
+       · _ ✦ _ ·
+    ˚  ╱     ╲  ˚
+   ✧  │ ◠   ◠ │  ✧
+  ·   │    ‿   │   ·
+ ✦    │  〜〜  │    ✦
+  ·    ╲ 💚  ╱    ·
+   ✧    ╲〜╱    ✧
+    ˚  ✦ · ✦  ˚
+      · ˚ ✧ ˚ ·
 ```
 
-**ملاذك الآمن**
+**Your Friendly Spirit**
 
-*رفيق AI يفهمك*
-*يستمع... يساعد... يحمي*
+*Appears when you need*
+*Glows in turquoise light*
+*Fades when you're okay*
 
-[![Haven](https://img.shields.io/badge/Enter_Haven-6C5CE7?style=for-the-badge&logo=homeassistant&logoColor=white)](https://github.com/gratechx/Haven)
+[![Haven](https://img.shields.io/badge/Meet_Haven-1a4a5a?style=for-the-badge&logo=ghost&logoColor=6ee7c2)](https://github.com/gratechx/Haven)
 
 </td>
 <td align="center" width="33%">
+
+<br>
 
 ### ☄️ CometX
 
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━-1ABC9C?style=flat-square" width="100%"/>
+<br>
 
 ```
-         ╱╲
-        ╱  ╲
+         ✦
+        ╱ ╲
        ╱ ☄️ ╲
-      ╱      ╲
-     ╱ COMET  ╲
-    ╱    X     ╲
-   ╱────────────╲
+      ╱     ╲
+     ╱  ✧ ✧  ╲
+    ╱ ·  ·  · ╲
+   ─────────────
+  ✦  ˚  ·  ˚  ✦
 ```
 
-**الذكاء العربي**
+**Local-First AI**
 
-*100% محلي*
-*100% خصوصية*
-*100% سعودي*
+*Your data stays yours*
+*Works offline*
+*No servers, no worries*
 
-[![CometX](https://img.shields.io/badge/Launch_CometX-1ABC9C?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/gratechx/cometx)
+[![CometX](https://img.shields.io/badge/Launch-1ABC9C?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/gratechx/cometx)
 
 </td>
 <td align="center" width="33%">
 
+<br>
+
 ### 🧠 Nexus
 
-<img src="https://img.shields.io/badge/━━━━━━━━━━━━━━━━━━━━-00D9FF?style=flat-square" width="100%"/>
+<br>
 
 ```
-    ┌───────────────┐
-    │ ┌───┐   ┌───┐ │
-    │ │ ◈ │───│ ◈ │ │
-    │ └─┬─┘   └─┬─┘ │
-    │   └───┬───┘   │
-    │     ┌─┴─┐     │
-    │     │🧠 │     │
-    └─────┴───┴─────┘
+   ╭─────────────╮
+   │  ◈     ◈  │
+   │    ╲ ╱    │
+   │  ───●───  │
+   │    ╱ ╲    │
+   │  ◈     ◈  │
+   ╰─────────────╯
 ```
 
-**مركز الذكاء**
+**Intelligence Hub**
 
-*11 نموذج AI*
-*60 مورد Azure*
-*∞ إمكانيات*
+*11 AI Models*
+*Connected & Ready*
+*Your digital brain*
 
-[![Nexus](https://img.shields.io/badge/Access_Nexus-00D9FF?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/gratechx/gratech-ai-nexus)
+[![Nexus](https://img.shields.io/badge/Access-00D9FF?style=for-the-badge&logo=atom&logoColor=white)](https://github.com/gratechx/gratech-ai-nexus)
 
 </td>
 </tr>
@@ -110,21 +119,14 @@
 
 <div align="center">
 
-## ⚡ The Arsenal
+## ⚡ More Tools
 
-</div>
-
-<br>
-
-<div align="center">
-
-| الكيان | الوصف | الحالة |
-|:------:|:-----:|:------:|
-| 🛡️ [Sovereign](https://github.com/gratechx/gratech-sovereign) | النظام السيادي | ![Active](https://img.shields.io/badge/●-Active-1ABC9C) |
-| 🔌 [Extension](https://github.com/gratechx/gratech-browser-extension) | إضافة المتصفح | ![Active](https://img.shields.io/badge/●-Active-1ABC9C) |
-| 🖥️ [Desktop](https://github.com/gratechx/comet-x-desktop) | تطبيق سطح المكتب | ![Active](https://img.shields.io/badge/●-Active-1ABC9C) |
-| 🐳 [Docker](https://github.com/gratechx/cometx-docker) | حاويات جاهزة | ![Active](https://img.shields.io/badge/●-Active-1ABC9C) |
-| 🤖 [HUMANAGENT](https://github.com/gratechx/HUMANAGENT) | الوكيل البشري | ![Active](https://img.shields.io/badge/●-Active-1ABC9C) |
+| Project | Description |
+|:-------:|:-----------:|
+| 🛡️ [Sovereign](https://github.com/gratechx/gratech-sovereign) | Full control |
+| 🔌 [Extension](https://github.com/gratechx/gratech-browser-extension) | Browser AI |
+| 🖥️ [Desktop](https://github.com/gratechx/comet-x-desktop) | Desktop magic |
+| 🐳 [Docker](https://github.com/gratechx/cometx-docker) | Containers |
 
 </div>
 
@@ -134,30 +136,10 @@
 
 <div align="center">
 
-## 📊 The Numbers
+## 📊 Stats
 
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=gratechx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1ABC9C&icon_color=6C5CE7&text_color=ffffff" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gratechx&theme=tokyonight&hide_border=true&background=0D1117&ring=1ABC9C&fire=6C5CE7&currStreakLabel=1ABC9C" width="49%"/>
-
-</div>
-
-<br>
-
----
-
-<div align="center">
-
-## 🛠️ Powered By
-
-<br>
-
-![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0D1117?style=for-the-badge&logo=typescript&logoColor=007ACC)
-![React](https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Azure](https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=0078D4)
-![Docker](https://img.shields.io/badge/Docker-0D1117?style=for-the-badge&logo=docker&logoColor=2496ED)
+<img src="https://github-readme-stats.vercel.app/api?username=gratechx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1ABC9C&icon_color=6ee7c2&text_color=ffffff" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gratechx&theme=tokyonight&hide_border=true&background=0D1117&ring=1ABC9C&fire=6ee7c2&currStreakLabel=1ABC9C" width="49%"/>
 
 </div>
 
@@ -169,21 +151,14 @@
 
 ## 💭 Philosophy
 
-<br>
-
 ```
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║     "كل شيء لراحة بال الإنسان"                                    ║
-║                                                                   ║
-║     Everything for human peace of mind.                           ║
-║                                                                   ║
-║     ─────────────────────────────────────                        ║
-║                                                                   ║
-║     لا ذعر. لا توتر. فقط مساعدة.                                  ║
-║     No panic. No stress. Just help.                               ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
+╭───────────────────────────────────────╮
+│                                       │
+│  "Everything for your peace of mind" │
+│                                       │
+│  No panic. No stress. Just help.      │
+│                                       │
+╰───────────────────────────────────────╯
 ```
 
 </div>
@@ -194,21 +169,10 @@
 
 <div align="center">
 
-### 🇸🇦 صُنع في السعودية
-
-**Vision 2030 | السيادة الرقمية | Neural Sovereignty**
-
-<br>
-
 [![Website](https://img.shields.io/badge/gratech.sa-0D1117?style=for-the-badge&logo=google-chrome&logoColor=1ABC9C)](https://gratech.sa)
-[![Email](https://img.shields.io/badge/admin@gratech.sa-0D1117?style=for-the-badge&logo=gmail&logoColor=6C5CE7)](mailto:admin@gratech.sa)
 
-<br>
+**© 2025 GraTech**
 
-**© 2025 GraTech | SULIMAN NAZAL ALSHAMMARI**
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1ABC9C,100:6C5CE7&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1ABC9C,50:1a4a5a,100:0D1117&height=100&section=footer" width="100%"/>
 
 </div>
