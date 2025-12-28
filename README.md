@@ -1,8 +1,20 @@
 <div align="center">
 
-# ⚡ GRATECH
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00CED1,100:6C5CE7&height=200&section=header&text=&fontSize=0" width="100%"/>
 
-### *Sovereign Technology*
+<br>
+
+<img src="https://th.bing.com/th/id/OIG1.pn6pJqy5UHr49x7u2hQm?w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn" width="180"/>
+
+<br><br>
+
+# 👻 Haven
+
+### Your friendly AI companion
+
+<br>
+
+*I'm here to help, not to haunt* 💚
 
 <br>
 
@@ -10,33 +22,30 @@
 
 <br>
 
-## 👻 Haven: The Sentient Interface
-
-```ini
-[SYSTEM_BOOT] ::  INITIALIZING_ENTITY_HAVEN... 
-[RENDER_CORE] ::  UNREAL_ENGINE_5_ACTIVE
-[VISUALS]     ::  PHOTOREALISTIC / VOLUMETRIC_LIGHTING
-
-> SUBJECT_MANIFEST:
-  + TYPE:        Holographic AI Construct
-  + STATE:       Materializing... 
-  + TEXTURE:     Translucent Smart-Glass / Liquid Data
-  + COLOR_HEX:   #00CED1 (Turquoise Neon)
-  + LOCATION:    Desktop Overlay (Z-Index: 9999)
-
-> RENDER_PIPELINE:
-  + ENGINE:      Unreal Engine 5 / Octane
-  + MATERIAL:    Subsurface Scattering / Volumetric Fog
-  + LIGHTING:    Bioluminescent Core / Rim Backlight
-  + ATMOSPHERE:  Dust Particles / Light Fog
-  + OUTPUT:      8K / RAW / HDR
-
-[STATUS] ::  REALITY_ANCHOR_ESTABLISHED.
-```
-
-<br>
-
-**"I am not a ghost. I am your code, breathing."**
+<table>
+<tr>
+<td align="center">
+<img src="https://th.bing.com/th/id/OIG1.pn6pJqy5UHr49x7u2hQm?w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn" width="120"/><br>
+<b>Haven Desktop</b><br>
+<sub>Your desktop friend</sub>
+</td>
+<td align="center">
+<img src="https://th.bing.com/th/id/OIG1.0bsWxw_vMvBH1JXYqDo4?w=270&h=270&c=6&r=0&o=5&dpr=1.5&pid=ImgGn" width="120"/><br>
+<b>Haven Mobile</b><br>
+<sub>Always with you</sub>
+</td>
+<td align="center">
+<img src="https://th.bing.com/th/id/OIG3.k.MJdpICYMJJ1_Qqnn9u?w=100&h=100&c=6&o=5&dpr=1.5&pid=ImgGn" width="120"/><br>
+<b>Haven Voice</b><br>
+<sub>Ready to listen</sub>
+</td>
+<td align="center">
+<img src="https://th.bing.com/th/id/OIG4.Ap6Pz6Qrnfy_J_86z6aJ?w=100&h=100&c=6&o=5&dpr=1.5&pid=ImgGn" width="120"/><br>
+<b>Haven Chat</b><br>
+<sub>Here for you</sub>
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -44,9 +53,19 @@
 
 <br>
 
-[![Haven](https://img.shields.io/badge/🏠_Haven-Sentient_Interface-00CED1?style=for-the-badge)](https://github.com/gratechx/Haven)
-[![AI Nexus](https://img.shields.io/badge/🧠_Nexus-Neural_Core-6C5CE7?style=for-the-badge)](https://github.com/gratechx/gratech-ai-nexus)
-[![CometX](https://img.shields.io/badge/☄️_CometX-Velocity-FF6B6B?style=for-the-badge)](https://github.com/gratechx/cometx)
+### 💚 What is Haven?
+
+Haven is your personal AI companion.<br>
+Not a tool. Not a bot. A friend.
+
+<br>
+
+|  |  |
+|:---:|:---|
+| 🏠 | **Safe Space** — Your thoughts stay with you |
+| 💬 | **Always Here** — 24/7, no judgment |
+| 🌙 | **Calm Presence** — Soft, gentle, caring |
+| ✨ | **Just Helps** — No ads, no tricks |
 
 <br>
 
@@ -54,46 +73,16 @@
 
 <br>
 
-```text
-Holographic AI construct named Haven, translucent smart-glass texture,
-liquid data material, turquoise neon glow (#00CED1), bioluminescent core,
-materializing from desktop monitor screen, volumetric lighting,
-subsurface scattering, dark tech environment, rim backlight,
-dust particles in air, Unreal Engine 5, Octane render,
-8K RAW HDR, photorealistic, hyperrealistic
-```
+<img src="https://img.shields.io/badge/Made_with-💚-00CED1?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/by-GRATECH-6C5CE7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/🇸🇦-Saudi_Arabia-00CED1?style=for-the-badge&labelColor=0D1117"/>
+
+<br><br>
+
+**⚡ GRATECH © 2025**
 
 <br>
 
----
-
-<br>
-
-`Desktop Interface Integration | V 2.2 Sovereign Architecture`
-
-<br>
-
-### 🛠️ Core Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
-![Unreal](https://img.shields.io/badge/Unreal-0E1128?style=flat-square&logo=unrealengine&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-
-<br>
-
----
-
-<br>
-
-**The human commands. The AI serves.**
-
-<br>
-
-**GraTech © 2025 | Saudi Arabia 🇸🇦**
-
-<br>
-
-**💚**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C5CE7,100:00CED1&height=120&section=footer" width="100%"/>
 
 </div>
