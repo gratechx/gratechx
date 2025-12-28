@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⚡ GRATECH</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0D1117 0%, #161B22 50%, #0D1117 100%);
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background-image: 
+                radial-gradient(2px 2px at 20px 30px, #6C5CE7, transparent),
+                radial-gradient(2px 2px at 40px 70px, #00D9FF, transparent),
+                radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+                radial-gradient(2px 2px at 160px 120px, #6C5CE7, transparent),
+                radial-gradient(1px 1px at 230px 80px, #00D9FF, transparent),
+                radial-gradient(2px 2px at 300px 150px, #fff, transparent),
+                radial-gradient(1px 1px at 350px 200px, #6C5CE7, transparent),
+                radial-gradient(2px 2px at 420px 50px, #00D9FF, transparent),
+                radial-gradient(1px 1px at 500px 180px, #fff, transparent),
+                radial-gradient(2px 2px at 550px 100px, #6C5CE7, transparent);
+            background-size: 600px 300px;
+            animation: twinkle 8s ease-in-out infinite;
+        }
+        
+        @keyframes twinkle {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        .container {
+            text-align: center;
+            z-index: 1;
+            padding: 2rem;
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            background: linear-gradient(135deg, #6C5CE7, #00D9FF, #6C5CE7);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 3s ease infinite;
+            margin-bottom: 0.5rem;
+        }
+        
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .tagline {
+            color: #8B949E;
+            font-size: 1.2rem;
+            margin-bottom: 3rem;
+            font-style: italic;
+        }
+        
+        .projects {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            width: 180px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: #6C5CE7;
+            box-shadow: 0 20px 40px rgba(108, 92, 231, 0.3);
+        }
+        
+        .project-card.haven:hover {
+            border-color: #6C5CE7;
+            box-shadow: 0 20px 40px rgba(108, 92, 231, 0.3);
+        }
+        
+        .project-card.nexus:hover {
+            border-color: #00D9FF;
+            box-shadow: 0 20px 40px rgba(0, 217, 255, 0.3);
+        }
+        
+        .project-card.cometx:hover {
+            border-color: #FF6B6B;
+            box-shadow: 0 20px 40px rgba(255, 107, 107, 0.3);
+        }
+        
+        .project-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .project-name {
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .project-desc {
+            color: #8B949E;
+            font-size: 0.85rem;
+        }
+        
+        .philosophy {
+            background: rgba(108, 92, 231, 0.1);
+            border: 1px solid rgba(108, 92, 231, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 2rem;
+            max-width: 500px;
+        }
+        
+        .philosophy p {
+            color: #C9D1D9;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        
+        .philosophy p:first-child {
+            color: #6C5CE7;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .heart {
+            font-size: 2rem;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            25% { transform: scale(1.2); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.2); }
+        }
+        
+        .footer {
+            color: #8B949E;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="stars"></div>
+    
+    <div class="container">
+        <div class="logo">⚡</div>
+        <h1>GRATECH</h1>
+        <p class="tagline">Building the future, one line at a time</p>
+        
+        <div class="projects">
+            <a href="https://github.com/gratechx/Haven" class="project-card haven">
+                <div class="project-icon">🏠</div>
+                <div class="project-name">Haven</div>
+                <div class="project-desc">Your Safe Space</div>
+            </a>
+            
+            <a href="https://github.com/gratechx/gratech-ai-nexus" class="project-card nexus">
+                <div class="project-icon">🧠</div>
+                <div class="project-name">AI Nexus</div>
+                <div class="project-desc">Intelligence</div>
+            </a>
+            
+            <a href="https://github.com/gratechx/cometx" class="project-card cometx">
+                <div class="project-icon">☄️</div>
+                <div class="project-name">CometX</div>
+                <div class="project-desc">Speed Matters</div>
+            </a>
+        </div>
+        
+        <div class="philosophy">
+            <p>"The human commands. The AI serves."</p>
+            <p>Everything for human peace of mind.</p>
+        </div>
+        
+        <div class="heart">💚</div>
+        
+        <p class="footer">GRATECH © 2025 | Saudi Arabia 🇸🇦</p>
+    </div>
+</body>
+</html>
