@@ -190,12 +190,16 @@ Created by **Suliman Nazal Alshammari** from Saudi Arabia 🇸🇦
 │                                                                 │
 │   ─────────────────────────────────────────                     │
 │                                                                 │
-│   "The word Algorithm was born in my land,                      │
-│    from my ancestor Al-Khwarizmi."                              │
+│   "The word 'Algorithm' was born in Baghdad,                    │
+│    from the scholar Al-Khwarizmi.                               │
+│    We see him not just as an ancestor,                          │
+│    but as a spiritual father to the science of computation.     │
 │                                                                 │
-│   "We see him as a spiritual father                             │
-│    to the science of algorithms,                                │
-│    a legacy for all humanity."                                  │
+│   His legacy belongs to no single nation;                       │
+│    it is a gift to all humanity.                                │
+│    At GraTech, we are simply honored to bring the algorithm     │
+│    back to its roots—building sovereign intelligence            │
+│    that speaks every language."                                 │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
