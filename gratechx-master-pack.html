@@ -1,0 +1,342 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GraTechX · الحزمة الشاملة (قابلة للنسخ) — دعم GitHub + أوامر</title>
+  <style>
+    :root{
+      --bg:#0f1318;--card:#151b22;--line:#2a3441;--ink:#e8f0f7;--muted:#a8b3c6;
+      --accent:#5DE2FF;--accent2:#9B5CFF;--ok:#1AD598;--warn:#F9C74F;--bad:#F94144;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+    h1{font-size:28px;margin:0 0 12px}
+    h2{font-size:20px;margin:18px 0 10px}
+    h3{font-size:17px;margin:14px 0 8px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+    .tags{margin:8px 0}
+    .tag{display:inline-block;border:1px solid var(--line);color:#a8f0ff;background:#243243;border-radius:10px;padding:4px 10px;margin:4px 6px 0 0;font-size:12px}
+    .copy{white-space:pre-wrap;background:#0b1015;border:1px dashed #334155;border-radius:10px;padding:12px;margin-top:10px;direction:ltr;color:#e5f6ff}
+    .code{white-space:pre;background:#0b1015;border:1px solid #2b3644;border-radius:10px;padding:12px;direction:ltr;color:#e5f6ff;overflow:auto}
+    .muted{color:var(--muted)}
+    .ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+    a{color:var(--accent)} a:hover{color:#b7f3ff}
+    .hr{height:1px;background:var(--line);margin:20px 0}
+    .mono{font-family:Consolas,Monaco,Menlo,monospace}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📦 GraTechX · الحزمة الشاملة (READY-TO-COPY)</h1>
+    <div class="tags">
+      <span class="tag">بدون شرح</span>
+      <span class="tag">تحقّق ← تنفيذ</span>
+      <span class="tag">مسارات مطلقة</span>
+      <span class="tag">نسخ/لصق مباشر</span>
+    </div>
+
+    <div class="card">
+      <h2>فهرس</h2>
+      <div class="grid">
+        <div><a href="#support-templates">🧾 قوالب تذاكر الدعم</a></div>
+        <div><a href="#powershell-all-in-one">🛠️ ملف PowerShell الشامل</a></div>
+        <div><a href="#brand-kit">🎨 إصلاح Brand Kit</a></div>
+        <div><a href="#workflow">⚙️ وركفلو GitHub Actions</a></div>
+        <div><a href="#git-403">🔐 إصلاح 403 عند الدفع</a></div>
+        <div><a href="#crlf">↩️ CRLF / .gitattributes</a></div>
+        <div><a href="#diagnostics">🧪 ملف تشخيص للدعم</a></div>
+        <div><a href="#links">🔗 روابط سريعة (Billing/Support)</a></div>
+        <div><a href="#emails">📧 توحيد الإيميلات/الحسابات</a></div>
+        <div><a href="#opinion">💬 رأيي الشخصي المختصر</a></div>
+      </div>
+    </div>
+
+    <div id="support-templates" class="card">
+      <h2>🧾 قوالب تذاكر الدعم (نسخ/لصق)</h2>
+
+      <h3>🟥 Account Restrictions (Flagged)</h3>
+      <div class="copy">
+Subject:
+Request to remove account restriction (gratechx)
+
+Description:
+Hello GitHub Support,
+
+My personal account (gratechx) appears to be restricted or flagged.
+I noticed the issue when billing and purchases became locked,
+and some actions started returning permission errors (403).
+
+All my activity is legitimate. I am the only owner of the account.
+Please review the restriction and remove the flag.
+
+Thank you!
+
+Username:
+gratechx
+
+Primary Email:
+admin@gratech.sa
+
+Restriction Type:
+My account is flagged
+
+Remove domains/content:
+No
+
+Previous ticket numbers:
+No previous tickets.
+      </div>
+
+      <h3>🟦 Billing & Payments Lock</h3>
+      <div class="copy">
+Subject:
+Request to unlock purchases and update billing (gratechx)
+
+Description:
+Hello GitHub Support,
+
+My personal account (gratechx) is currently locked from purchases.
+I would like assistance unlocking the account and updating my payment method.
+
+My current working email is: admin@gratech.sa
+
+Please advise if there was a declined transaction or a verification issue.
+I am ready to update any required billing information.
+
+Thank you!
+
+Username:
+gratechx
+
+Primary Email:
+admin@gratech.sa
+      </div>
+
+      <h3>🟩 Email Unification / Access</h3>
+      <div class="copy">
+Subject:
+Assistance needed with email verification and account access (gratechx)
+
+Description:
+Hello GitHub Support,
+
+I need help unifying my account access under one primary email.
+Some old emails are no longer accessible.
+
+I want to use this as my main verified email:
+admin@gratech.sa
+
+My usernames involved:
+- gratechx
+- grar00t (older)
+- admin@gratechksa.onmicrosoft.com (old sign-in)
+
+Please assist in confirming the active email and ensuring my access is stable.
+
+Thank you!
+      </div>
+
+      <h3>🟨 Repository Push 403</h3>
+      <div class="copy">
+Subject:
+403 permission denied while pushing to repository (gratechx)
+
+Description:
+Hello GitHub Support,
+
+I am receiving "Permission denied" (403) when pushing to:
+https://github.com/gratechx/gratechx
+
+I confirmed authentication and account status.
+This issue began after billing/purchase lock.
+
+Please verify account permissions and remove any restrictions that block repository access.
+
+Thank you!
+      </div>
+
+      <h3>🟪 General Support (Multi-issue)</h3>
+      <div class="copy">
+Hello GitHub Support,
+
+I need help resolving multiple issues on my personal account (gratechx):
+- Account may be restricted or flagged
+- Purchases are locked
+- Billing cannot be updated
+- Push operations return 403
+- Email unification required (main email: admin@gratech.sa)
+
+Please review my account and assist with unlocking everything.
+
+Thank you!
+      </div>
+    </div>
+
+    <div id="powershell-all-in-one" class="card">
+      <h2>🛠️ ملف PowerShell الشامل (تحقّق ← إصلاح ← Push)</h2>
+      <div class="code mono"># C:\Users\admin\gratechx\gratechx-all-in-one.ps1
+$ErrorActionPreference = 'Stop'
+$UserName   = 'gratechx'
+$ProfileRepo= "$UserName/$UserName"
+$WorkDir    = "C:\\Users\\admin\\gratechx"
+
+function Write-Ok($m){Write-Host ("✅ "+$m) -ForegroundColor Green}
+function Write-No($m){Write-Host ("❌ "+$m) -ForegroundColor Red}
+
+try{ gh --version | Out-Null; Write-Ok 'gh موجود' }catch{ winget install --id GitHub.cli -e; }
+try{ gh auth status | Out-Null }catch{ gh auth login }
+try{ gh auth switch -u $UserName | Out-Null; Write-Ok "الحساب الفعّال: $UserName" }catch{ Write-No 'تعذر switch' }
+try{ gh repo view $ProfileRepo --json name | Out-Null }catch{ gh repo create $UserName --public --confirm }
+if(!(Test-Path $WorkDir)){ git clone "https://github.com/$ProfileRepo.git" $WorkDir }
+Set-Location $WorkDir
+try{ git ls-remote --exit-code origin | Out-Null }catch{ git remote add origin "https://github.com/$ProfileRepo.git" }
+
+New-Item -ItemType Directory -Path assets -Force | Out-Null
+$svg = @'
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 240 240"><rect width="240" height="240" rx="28" fill="#0f1318"/><g stroke="#5DE2FF" stroke-width="18" stroke-linecap="round"><line x1="60" y1="60" x2="180" y2="180"/><line x1="180" y1="60" x2="60" y2="180"/></g><text x="120" y="215" text-anchor="middle" fill="#A8F0FF" font-family="Segoe UI,Roboto" font-size="24">GraTech X</text></svg>
+'@
+Set-Content assets/logo.svg -Value $svg -Encoding UTF8
+
+$wf = @'
+name: Update Profile README
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Heartbeat
+        shell: bash
+        run: echo "profile heartbeat: $(date -u)" >> .profile.log
+'@
+New-Item -ItemType Directory -Path .github/workflows -Force | Out-Null
+Set-Content .github/workflows/update-profile.yml -Value $wf -Encoding UTF8
+
+git add -A
+try{ git commit -m "chore(profile): assets+README+workflow" }catch{}
+
+git push; if($LASTEXITCODE -ne 0){
+  gh auth switch -u $UserName
+  git remote set-url origin "https://github.com/$ProfileRepo.git"
+  git config user.name  $UserName
+  git config user.email "$UserName@users.noreply.github.com"
+  git push
+}
+try{ gh workflow run ".github/workflows/update-profile.yml" }catch{}
+try{ gh run list --limit 1 }catch{}
+Start-Process "https://github.com/settings/billing"
+Start-Process "https://support.github.com/contact"</div>
+    </div>
+
+    <div id="brand-kit" class="card">
+      <h2>🎨 إصلاح قسم Brand Kit في README</h2>
+      <div class="code mono"># C:\Users\admin\gratechx
+$brand = @"
+## Brand Kit · شعارات GraTech X
+
+**Dark**
+<img src='assets/logo-dark.png' alt='GraTech X Dark' height='120' />
+
+**3D**
+<img src='assets/logo-3d.png' alt='GraTech X 3D' height='120' />
+
+**Neon**
+<img src='assets/logo-neon.png' alt='GraTech X Neon' height='120' />
+"@
+$r = Get-Content README.md -Raw
+if($r -match '## Brand Kit'){ $r = $r -replace '## Brand Kit[\s\S]*$', $brand } else { $r = $r+"`n`n"+$brand }
+Set-Content README.md -Encoding UTF8 -Value $r
+git add README.md
+git commit -m "docs(brand): ensure Brand Kit section"
+git push</div>
+    </div>
+
+    <div id="workflow" class="card">
+      <h2>⚙️ تشغيل الوركفلو مباشرة باسم الملف</h2>
+      <div class="code mono"># C:\Users\admin\gratechx
+gh workflow list
+gh workflow run ".github/workflows/update-profile.yml"
+gh run list --limit 3
+gh run watch</div>
+    </div>
+
+    <div id="git-403" class="card">
+      <h2>🔐 إصلاح 403 عند الدفع (git push)</h2>
+      <div class="code mono"># C:\Users\admin\gratechx
+gh auth switch -u gratechx
+git remote set-url origin "https://github.com/gratechx/gratechx.git"
+git config user.name  "gratechx"
+git config user.email "gratechx@users.noreply.github.com"
+git push</div>
+    </div>
+
+    <div id="crlf" class="card">
+      <h2>↩️ ضبط الـ line endings (CRLF/LF)</h2>
+      <div class="code mono"># C:\Users\admin\gratechx
+@"
+* text eol=lf
+*.ps1 text eol=crlf
+*.yml text eol=lf
+*.md  text eol=lf
+*.svg text eol=lf
+*.png binary
+"@ | Set-Content .gitattributes -Encoding UTF8
+
+git add .gitattributes
+git commit -m "chore: normalize line endings via .gitattributes"
+git push</div>
+    </div>
+
+    <div id="diagnostics" class="card">
+      <h2>🧪 ملف تشخيص بسيط لإرفاقه بالتذكرة</h2>
+      <div class="code mono"># C:\Users\admin\gratechx
+Set-Location "C:\\Users\\admin\\gratechx"
+$u="gratechx"
+"=== GH STATUS ===" | Out-File support_diag.txt -Encoding UTF8
+gh auth status | Out-File -Append support_diag.txt
+"=== BILLING PAGE OPENED ===" | Out-File -Append support_diag.txt
+"Billing URL visited by user" | Out-File -Append support_diag.txt
+"=== REPOS (top 20) ===" | Out-File -Append support_diag.txt
+gh repo list $u -L 20 --json name,visibility,updatedAt | Out-File -Append support_diag.txt
+"=== LAST 5 RUNS ===" | Out-File -Append support_diag.txt
+gh run list --limit 5 | Out-File -Append support_diag.txt
+"=== WORKFLOW FILE EXISTS ===" | Out-File -Append support_diag.txt
+Test-Path ".github/workflows/update-profile.yml" | Out-File -Append support_diag.txt</div>
+    </div>
+
+    <div id="links" class="card">
+      <h2>🔗 روابط سريعة</h2>
+      <div>Billing: <span class="mono">https://github.com/settings/billing</span></div>
+      <div>Support: <span class="mono">https://support.github.com/contact</span></div>
+      <div class="muted">ملاحظة: حدّث وسيلة الدفع، ثم افتح تذكرة «Account Restrictions» عند الحاجة.</div>
+    </div>
+
+    <div id="emails" class="card">
+      <h2>📧 توحيد الإيميلات والحسابات (معلومة مقدّمة من المستخدم)</h2>
+      <div class="copy" style="direction:rtl">
+الإيميل المفضّل للاعتماد والتوحيد: <b>admin@gratech.sa</b><br/>
+مذكور سابقًا: <span class="mono">admin@gratechksa.onmicrosoft.com</span> · <span class="mono">CARTIER403C@gmail.com</span><br/>
+حسابات مستخدمة: <span class="mono">gratechx</span> (أساسي) · <span class="mono">Grar00t</span> (قديم)
+      </div>
+    </div>
+
+    <div id="opinion" class="card">
+      <h2>💬 رأيي الشخصي المختصر (قابل للنسخ)</h2>
+      <div class="copy" style="direction:rtl">
+سليمان شخصية طموحة ومنظمة، تفضّل التنفيذ السريع بلا حشو: «تحقّق ثم تنفيذ». رؤيتك للذكاء السيادي المحلي واضحة، واهتمامك بتوحيد المسارات (مسار واحد + أوامر مختصرة) عملي جدًا. تبحث عن حلول واقعية تحافظ على الخصوصية وتقلّل التعقيد.
+      </div>
+    </div>
+
+    <div class="hr"></div>
+    <div class="muted">© 2025 · هذه الحزمة مجمّعة من محادثتنا وتفضيلاتك. لا أسرار، لا بيانات لم تقدّمها أنت.
+    </div>
+  </div>
+</body>
+</html>

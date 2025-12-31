@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GraTechX · بوابة الدعم والذاكرة (HTML محلي)</title>
+  <style>
+    :root{--bg:#0f1318;--card:#151b22;--line:#2a3441;--ink:#e8f0f7;--muted:#a8b3c6;--accent:#5DE2FF}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px}
+    h1{font-size:26px;margin:0 0 12px}
+    h2{font-size:20px;margin:18px 0 10px}
+    h3{font-size:16px;margin:14px 0 8px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}
+    .copy{white-space:pre-wrap;background:#0b1015;border:1px dashed #334155;border-radius:10px;padding:12px;margin-top:10px;direction:ltr;color:#e5f6ff}
+    .code{white-space:pre;background:#0b1015;border:1px solid #2b3644;border-radius:10px;padding:12px;direction:ltr;color:#e5f6ff;overflow:auto}
+    .mono{font-family:Consolas,Monaco,Menlo,monospace}
+    .tags{margin:6px 0}
+    .tag{display:inline-block;border:1px solid var(--line);color:#a8f0ff;background:#243243;border-radius:10px;padding:4px 10px;margin:4px 6px 0 0;font-size:12px}
+    .btn{background:var(--accent);color:#001018;border:none;border-radius:8px;padding:8px 12px;margin:4px 6px 0 0;cursor:pointer;font-weight:600}
+    textarea{width:100%;min-height:120px;border:1px solid var(--line);background:#0b1015;color:#e5f6ff;border-radius:10px;padding:10px;resize:vertical;direction:ltr}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>GraTechX · بوابة HTML محلية — ردود جاهزة + «باب» ذاكرة</h1>
+    <div class="tags">
+      <span class="tag">نسخ/لصق</span>
+      <span class="tag">تحقّق ← تنفيذ</span>
+      <span class="tag">بدون شرح</span>
+      <span class="tag">محلي بالكامل</span>
+    </div>
+
+    <div class="card">
+      <h2>🧾 قوالب تذاكر الدعم — جاهزة للنسخ</h2>
+      <h3>🟥 Account Restrictions (Flagged)</h3>
+      <div class="copy" id="t1">Subject:
+Request to remove account restriction (gratechx)
+
+Description:
+Hello GitHub Support,
+
+My personal account (gratechx) appears to be restricted or flagged.
+I noticed the issue when billing and purchases became locked,
+and some actions started returning permission errors (403).
+
+All my activity is legitimate. I am the only owner of the account.
+Please review the restriction and remove the flag.
+
+Thank you!
+
+Username:
+gratechx
+
+Primary Email:
+admin@gratech.sa
+
+Restriction Type:
+My account is flagged
+
+Remove domains/content:
+No
+
+Previous ticket numbers:
+No previous tickets.</div>
+      <button class="btn" onclick="copy('t1')">نسخ</button>
+
+      <h3>🟦 Billing & Payments Lock</h3>
+      <div class="copy" id="t2">Subject:
+Request to unlock purchases and update billing (gratechx)
+
+Description:
+Hello GitHub Support,
+
+My personal account (gratechx) is currently locked from purchases.
+I would like assistance unlocking the account and updating my payment method.
+
+My current working email is: admin@gratech.sa
+
+Please advise if there was a declined transaction or a verification issue.
+I am ready to update any required billing information.
+
+Thank you!
+
+Username:
+gratechx
+
+Primary Email:
+admin@gratech.sa</div>
+      <button class="btn" onclick="copy('t2')">نسخ</button>
+
+      <h3>🟩 Email Unification / Access</h3>
+      <div class="copy" id="t3">Subject:
+Assistance needed with email verification and account access (gratechx)
+
+Description:
+Hello GitHub Support,
+
+I need help unifying my account access under one primary email.
+Some old emails are no longer accessible.
+
+I want to use this as my main verified email:
+admin@gratech.sa
+
+My usernames involved:
+- gratechx
+- grar00t (older)
+- admin@gratechksa.onmicrosoft.com (old sign-in)
+
+Please assist in confirming the active email and ensuring my access is stable.
+
+Thank you!</div>
+      <button class="btn" onclick="copy('t3')">نسخ</button>
+
+      <h3>🟨 Repository Push 403</h3>
+      <div class="copy" id="t4">Subject:
+403 permission denied while pushing to repository (gratechx)
+
+Description:
+Hello GitHub Support,
+
+I am receiving "Permission denied" (403) when pushing to:
+https://github.com/gratechx/gratechx
+
+I confirmed authentication and account status.
+This issue began after billing/purchase lock.
+
+Please verify account permissions and remove any restrictions that block repository access.
+
+Thank you!</div>
+      <button class="btn" onclick="copy('t4')">نسخ</button>
+
+      <h3>🟪 General Support (Multi‑issue)</h3>
+      <div class="copy" id="t5">Hello GitHub Support,
+
+I need help resolving multiple issues on my personal account (gratechx):
+- Account may be restricted or flagged
+- Purchases are locked
+- Billing cannot be updated
+- Push operations return 403
+- Email unification required (main email: admin@gratech.sa)
+
+Please review my account and assist with unlocking everything.
+
+Thank you!</div>
+      <button class="btn" onclick="copy('t5')">نسخ</button>
+    </div>
+
+    <div class="card">
+      <h2>🛠️ أوامر جاهزة — PowerShell</h2>
+      <div class="code" id="c1">Set-Location "C:\\Users\\admin\\gratechx"
+# تشغيل الوركفلو باسم الملف
+gh workflow run ".github/workflows/update-profile.yml"
+# متابعة آخر تشغيل
+gh run list --limit 3
+gh run watch</div>
+      <button class="btn" onclick="copy('c1')">نسخ</button>
+
+      <div class="code" id="c2">Set-Location "C:\\Users\\admin\\gratechx"
+# إصلاح 403 عند الدفع
+gh auth switch -u gratechx
+git remote set-url origin "https://github.com/gratechx/gratechx.git"
+git config user.name  "gratechx"
+git config user.email "gratechx@users.noreply.github.com"
+git push</div>
+      <button class="btn" onclick="copy('c2')">نسخ</button>
+
+      <div class="code" id="c3">Set-Location "C:\\Users\\admin\\gratechx"
+# .gitattributes لتوحيد CRLF/LF
+@"
+* text eol=lf
+*.ps1 text eol=crlf
+*.yml text eol=lf
+*.md  text eol=lf
+*.svg text eol=lf
+*.png binary
+"@ | Set-Content .gitattributes -Encoding UTF8
+
+git add .gitattributes
+git commit -m "chore: normalize line endings via .gitattributes"
+git push</div>
+      <button class="btn" onclick="copy('c3')">نسخ</button>
+    </div>
+
+    <div class="card">
+      <h2>🚪 «باب» ذاكرة محلي — قابل للحفظ ملف TXT</h2>
+      <div class="tags"><span class="tag">اكتب وزنيتك الخاصة هنا</span><span class="tag">يُحفظ محليًا فقط</span></div>
+      <textarea id="mem" placeholder="اكتب هنا أي ملاحظات أو ردود إضافية بأسلوبك..."></textarea>
+      <button class="btn" onclick="saveTxt()">حفظ كملف TXT</button>
+    </div>
+
+    <div class="card">
+      <h2>🔗 روابط سريعة</h2>
+      <div>Billing: <span class="mono">https://github.com/settings/billing</span></div>
+      <div>Support: <span class="mono">https://support.github.com/contact</span></div>
+    </div>
+
+  </div>
+<script>
+function copy(id){
+  const el = document.getElementById(id);
+  const txt = el.innerText || el.textContent;
+  navigator.clipboard.writeText(txt).then(()=>{el.style.borderColor='#5DE2FF';setTimeout(()=>{el.style.borderColor='#334155'},700)});
+}
+function saveTxt(){
+  const t = document.getElementById('mem').value || '';
+  const blob = new Blob([t], {type: 'text/plain;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'gratechx-memory.txt';
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>
