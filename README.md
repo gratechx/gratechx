@@ -50,11 +50,12 @@ Open Source · MIT Licensed where possible · For privacy and independence
 
 
 ## Brand Kit · شعارات GraTech X
+
 **Dark**
-<imgts/logo-dark.png
+<img src='assets/logo-dark.png' alt='GraTech X Dark' height='120' />
 
 **3D**
-<img src='o-3d.png
+<img src='assets/logo-3d.png' alt='GraTech X 3D' height='120' />
 
 **Neon**
-<imgts/logo-neon.png
+<img src='assets/logo-neon.png' alt='GraTech X Neon' height='120' />

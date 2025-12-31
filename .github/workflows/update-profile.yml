@@ -1,0 +1,13 @@
+name: Update Profile README
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Heartbeat
+        shell: bash
+        run: echo "profile heartbeat: $(date -u)" >> .profile.log
