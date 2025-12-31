@@ -47,3 +47,10 @@ Building a sovereign AI ecosystem that runs entirely locally — browser or devi
 Open Source · MIT Licensed where possible · For privacy and independence  
 #SovereignAI #LocalAI #PrivacyFirst #OpenSource
 
+
+
+## Brand Kit · شعارات GraTech X
+> اختر ما يُناسب الخلفية/الهوية البصرية
+
+**Dark**
+<img src='assets/logo-dark.png' alt='GraTech X Dark' height='t='GraTechets/logo
