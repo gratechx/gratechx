@@ -50,7 +50,11 @@ Open Source · MIT Licensed where possible · For privacy and independence
 
 
 ## Brand Kit · شعارات GraTech X
-> اختر ما يُناسب الخلفية/الهوية البصرية
-
 **Dark**
-<img src='assets/logo-dark.png' alt='GraTech X Dark' height='t='GraTechets/logo
+<imgts/logo-dark.png
+
+**3D**
+<img src='o-3d.png
+
+**Neon**
+<imgts/logo-neon.png
